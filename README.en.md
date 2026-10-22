@@ -3,7 +3,6 @@
 # EasyGRC Free
 
 **A governance, risk and compliance platform.**
-Frameworks and controls, compliance assessments, IT assets, risks and evidence in one place.
 
 [![Latest version](https://img.shields.io/github/v/release/whoami-ru/EasyGRC-Free-Releases?label=version&color=2ea043)](https://github.com/whoami-ru/EasyGRC-Free-Releases/releases/latest)
 [![Licence](https://img.shields.io/badge/licence-PolyForm%20Strict%201.0.0-blue)](#licence)
