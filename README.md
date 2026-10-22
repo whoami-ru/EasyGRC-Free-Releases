@@ -1,6 +1,6 @@
 <div align="center">
 
-# EasyGRC Free
+# EasyGRC
 
 **Система управления соответствием и рисками.**
 
