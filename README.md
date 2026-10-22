@@ -10,6 +10,9 @@
 
 [**Скачать последнюю версию**](https://github.com/whoami-ru/EasyGRC-Free-Releases/releases/latest) · [English](README.en.md) · [Предложить доработку](https://github.com/whoami-ru/EasyGRC-Free-Releases/issues/new/choose)
 
+[**Сайт**](https:/easygrc.kz)
+
+
 </div>
 
 ---
