@@ -15,13 +15,6 @@ Frameworks and controls, compliance assessments, IT assets, risks and evidence i
 
 ---
 
-## What is inside
-
-- **Compliance.** Frameworks, controls and requirements, assessment statuses, tasks and evidence files.
-- **Assets and risks.** An IT asset register, risks scored by likelihood and impact, residual risk after controls.
-- **Access.** Roles and permissions per section and per object, an audit log, a recycle bin.
-- **One-command install.** The Docker images are in the archive, so no internet is needed to install.
-
 ## Install in 3 steps
 
 **1. Download** `easygrc-<version>-free.tar.gz` and its `.sha256` file from the [Releases](https://github.com/whoami-ru/EasyGRC-Free-Releases/releases/latest) page.
@@ -44,8 +37,6 @@ sudo ./install.sh
 ```
 
 The script checks the server, installs Docker if needed, loads the images, asks for the language and a domain name, creates the settings and a certificate, starts the system and offers to create the first administrator. Then open `https://<server address>/`.
-
-> **Keep a copy of the `.env` file off the server.** Without it the system cannot be restored on a new server.
 
 The full guide (domain and certificate, backups, troubleshooting) is in the archive as `INSTALL.en.md`.
 
