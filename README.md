@@ -3,7 +3,6 @@
 # EasyGRC Free
 
 **Система управления соответствием и рисками.**
-Фреймворки и контроли, оценки соответствия, ИТ-активы, риски и подтверждения в одном месте.
 
 [![Последняя версия](https://img.shields.io/github/v/release/whoami-ru/EasyGRC-Free-Releases?label=%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F&color=2ea043)](https://github.com/whoami-ru/EasyGRC-Free-Releases/releases/latest)
 [![Лицензия](https://img.shields.io/badge/%D0%BB%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F-PolyForm%20Strict%201.0.0-blue)](#лицензия)
