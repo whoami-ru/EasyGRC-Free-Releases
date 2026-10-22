@@ -1,0 +1,28 @@
+name: Предложение по доработке / Feature request
+description: Чего не хватает в EasyGRC? / What is missing in EasyGRC?
+title: "[Предложение] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Какую задачу вы решаете? / What are you trying to do?
+      description: Опишите ситуацию, а не готовое решение. / Describe the situation, not a ready solution.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Как вы это себе представляете? / How would you like it to work?
+    validations:
+      required: false
+  - type: input
+    id: version
+    attributes:
+      label: Версия (файл VERSION) / Version (VERSION file)
+      placeholder: 2.0.1-free
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: Не публикуйте здесь пароли, ключи и файл `.env`. / Do not post passwords, keys or the `.env` file here.

@@ -1,0 +1,44 @@
+name: Ошибка / Bug report
+description: Что-то работает не так / Something does not work
+title: "[Ошибка] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Об уязвимостях сообщайте закрыто (вкладка Security), а не здесь. / Report vulnerabilities privately (Security tab), not here.
+        **Не публикуйте `.env`, пароли, ключи и содержимое `deploy/tls/`.** / **Never post `.env`, passwords, keys or `deploy/tls/` contents.**
+  - type: input
+    id: version
+    attributes:
+      label: Версия (файл VERSION) / Version (VERSION file)
+      placeholder: 2.0.1-free
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Система сервера / Server OS
+      placeholder: Debian 12, AlmaLinux 9.8 ...
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: Что произошло и что ожидали / What happened and what you expected
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Как воспроизвести / Steps to reproduce
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Вывод команд / Command output
+      description: Например `docker compose ps` и `docker compose logs --tail=200 web`. Уберите секреты. / For example `docker compose ps` and `docker compose logs --tail=200 web`. Remove secrets.
+      render: shell
+    validations:
+      required: false

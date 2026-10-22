@@ -1,0 +1,11 @@
+# Archives and secrets never go into git: releases are attached on the Releases page.
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+.env
+.env.*
+*.pem
+*.key
+*.sqlite3
+*.dump

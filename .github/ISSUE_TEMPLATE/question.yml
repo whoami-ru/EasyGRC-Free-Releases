@@ -1,0 +1,23 @@
+name: Вопрос по установке / Installation question
+description: Не получается установить или настроить / Cannot install or configure
+title: "[Вопрос] "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Не публикуйте `.env`, пароли, ключи и содержимое `deploy/tls/`.** / **Never post `.env`, passwords, keys or `deploy/tls/` contents.**
+  - type: input
+    id: version
+    attributes:
+      label: Версия (файл VERSION) / Version (VERSION file)
+      placeholder: 2.0.1-free
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Что вы делали и на чём остановились / What you did and where you got stuck
+      description: Приложите вывод `sudo ./install.sh --check` или последние строки `install.log`. / Attach the output of `sudo ./install.sh --check` or the last lines of `install.log`.
+    validations:
+      required: true
